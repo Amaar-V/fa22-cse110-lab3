@@ -11,7 +11,7 @@
   <body>
     <header>
         <h1>Formula 1 Meeting Minutes</h1>
-        <h2>Documentation and Check-ins</h2>
+        <h2>Documentation and Snacks</h2>
         <h3>October 9th, 2022</h3>
     </header>
     <hr>
@@ -22,6 +22,7 @@
           <li><a href="#ContBuis">Continuing Buisnesss</a></li>
           <li><a href="#NewBuis">New Buisnesss</a></li>
           <li><a href="#Miscellaneous">Miscellaneous</a></li>
+          <li><a href="#Form">Form for Becoming an F1 Driver</a></li>
         </ul>
     </nav>
     <hr>
@@ -29,22 +30,22 @@
         <section id="AttendenceList">
             <h2>Attendence List</h2>
             <ul>
-                <li>Max Verstappen</li>
-                <li>Lewis Hamilton</li>
-                <li>Charles Leclerc</li>
-                <li>Esteban Ocon</li>
-                <li>Thomas Powell</li>
-                <li>Sergio Pérez</li>
+                <li><i>Max Verstappen</i></li>
+                <li><i>Lewis Hamilton</i></li>
+                <li><i>Charles Leclerc</i></li>
+                <li><i>Esteban Ocon</i></li>
+                <li><em>Mick Schumacher</em></li>
+                <li><i>Sergio Pérez</i></li>
             </ul>
         </section>
         <hr>
         <section id="Agenda">
             <h2>Agenda</h2>
             <ol>
-                <li>Review Last Meeting on Reserve Drivers</li>
-                <li>New Car Regulations</li>
-                <li>Cost Cap Changes</li>
-                <li>Snacks For The Meetings</li>
+                <li><b>Review Last Meeting on Reserve Drivers</b></li>
+                <li><b>New Car Regulations</b></li>
+                <li><b>Cost Cap Changes</b></li>
+                <li><strong>Snacks For The Meetings</strong></li>
             </ol>
         </section>
         <hr>
@@ -58,30 +59,94 @@
         <section id="NewBuis">
             <h2>New Buisness</h2>
             <h4>New Car Regulations</h4>
-            <p>
-                Regulations for 2023 for Formula 1 cars.
-            </p>
+            <p>Regulations for 2023 for Formula 1 cars.</p>
         </section>
+        <hr>
         <section id="Miscellaneous">
             <h2>Miscellaneous</h2>
-            <h4>Questions</h4>
-            <p>Max Verstappen asked if the new regulations would be flexible for change once the season started? Answer: Yes, there are some possible changes to be made during the season.</p>
+            <div class="div">
+                <h4>Questions</h4>
+                <p>Max Verstappen asked if the new regulations would be flexible for change once the season started?<br> <span>Answer</span>: Yes, there are some possible changes to be made during the season.</p>
+            </div>
+            <h4>Important Link</h4>
+            <a href="https://www.youtube.com/watch?v=L4PNYFaQkd0">It's Lights Out and Away We Go!</a>
             <h4>Diagram for 2023 Car</h4>
             <img src="f1diagram.jpeg" alt="f1 diagram" width="700" height="400"/>
-            <h4>Audio Sample of ...</h4>
-            <audio controls src="audio.mp3"></audio>
-            <h4>Video of ...</h4>
+            <h4>Audio Sample of Me Reciting Steve Job's 2005 Stanford Commencement Speech</h4>
+            <audio controls src="audio.m4a"></audio>
+            <h4>Video of Me Reciting Steve Job's 2005 Stanford Commencement Speech</h4>
             <video controls src="video.mp4"></video>
         </section>
-        <section>
-            <h2>Form</h2>
+        <hr>
+        <section id="Form">
+            <h2>Form for Becoming an F1 Driver</h2>
+            <details>
+                <summary>Why Should You Apply?</summary>
+                <p>Being an F1 driver is a sign of determination to look death in the eye and say... <b>yes.</b></p>
+              </details>
+              <br>
             <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname">
-              </form>
+                <fieldset>
+                    <label for="name1">First name:</label><br>
+                    <input type="text" id="name1" name="name1"><br>
+                    <label for="name2">Last name:</label><br>
+                    <input type="text" id="name2" name="name2"><br>
+                    <label for="age" id="age" name="age">Age Range:</label><br>
+                    <input type="radio" id="above21" name="age" value="above21">
+                    <label for="above21">+21</label><br>
+                    <input type="radio" id="above18" name="age" value="above18">
+                    <label for="above18">18-21</label><br>
+                    <input type="radio" id="below18" name="age" value="below18">
+                    <label for="below18">0-18</label><br>
+                    <label for="Team">Select Team:</label><br>
+                    <select id="Team" name="Team">
+                        <option value="Red Bull Racing">Red Bull Racing</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="Alpine">Alpine</option>
+                        <option value="Mclaren">Mclaren</option>
+                        <option value="Alfa Romeo">Alfa Romeo</option>
+                        <option value="Aston Martin">Aston Martin</option>
+                        <option value="AlphaTauri">AlphaTauri</option>
+                        <option value="Haas">Hass</option>
+                        <option value="Williams">Williams</option>
+                    </select>
+                    <br>
+                    <label for="ok">Are you okay?:</label><br>
+                    <input list="ok" name="ok"><br>
+                    <datalist id="ok" name="ok">
+                        <option value="yes">:)</option>
+                        <option value="no">:(</option>
+                        <option value="depression">T-T</option>
+                        <option value="elation">:D</option>
+                    </datalist>
+                    <label for="lifeStory">Short Answer:</label><br>
+                    <textarea name="lifeStory" rows="12" cols="44">Write Your Life Story Here!</textarea><br>
+                    <label for="why">Tell me why...</label><br>
+                    <input type="checkbox" id="heartache" name="heartache" value="heartache">
+                    <label for="heartache"> Ain't nothin' but a heartache</label><br>
+                    <input type="checkbox" id="mistake" name="mistake" value="mistake">
+                    <label for="mistake"> Ain't nothin' but a mistake</label><br>
+                    <input type="checkbox" id="say" name="say" value="say">
+                    <label for="say"> I never wanna hear you say</label><br>
+                    <input type="checkbox" id="way" name="way" value="way">
+                    <label for="way"> I want it that way</label><br>
+                    <br>
+                    <label for="tom">Tomorrow's yesterday's date?</label><br>
+                    <input type="date" id="tom" name="tom">
+                    <br><br>
+                    <button type="button">Submit!</button>
+                </fieldset>
+            </form>
         </section>
     </main>
+    <br>
+    <footer>
+        This webpage is Copyright of Amaar Valliani, 2022.
+        <br>
+        <nav class="bottom">
+        <a href="#">Home</a>
+        </nav>
+    </footer>
   </body>
 </html>
