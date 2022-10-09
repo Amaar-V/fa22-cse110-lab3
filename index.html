@@ -17,14 +17,16 @@
     <hr>
     <nav class="menu">
         <ul>
-          <li><a href="#1">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#AttendenceList">Attendence List</a></li>
+          <li><a href="#Agenda">Agenda</a></li>
+          <li><a href="#ContBuis">Continuing Buisnesss</a></li>
+          <li><a href="#NewBuis">New Buisnesss</a></li>
+          <li><a href="#Miscellaneous">Miscellaneous</a></li>
         </ul>
     </nav>
     <hr>
     <main>
-        <section>
+        <section id="AttendenceList">
             <h2>Attendence List</h2>
             <ul>
                 <li>Max Verstappen</li>
@@ -36,7 +38,7 @@
             </ul>
         </section>
         <hr>
-        <section class="Agenda">
+        <section id="Agenda">
             <h2>Agenda</h2>
             <ol>
                 <li>Review Last Meeting on Reserve Drivers</li>
@@ -46,23 +48,39 @@
             </ol>
         </section>
         <hr>
-        <section>
+        <section id="ContBuis">
             <h2>Continuing Buisness</h2>
             <p>
                 Reserve Drivers are not used often enough in races through out the season. 
             </p>
         </section>
         <hr>
-        <section>
+        <section id="NewBuis">
             <h2>New Buisness</h2>
             <h4>New Car Regulations</h4>
             <p>
                 Regulations for 2023 for Formula 1 cars.
             </p>
         </section>
-        <section>
+        <section id="Miscellaneous">
             <h2>Miscellaneous</h2>
-            <img src="f1diagram.jpeg" alt="f1 diagram"/>
+            <h4>Questions</h4>
+            <p>Max Verstappen asked if the new regulations would be flexible for change once the season started? Answer: Yes, there are some possible changes to be made during the season.</p>
+            <h4>Diagram for 2023 Car</h4>
+            <img src="f1diagram.jpeg" alt="f1 diagram" width="700" height="400"/>
+            <h4>Audio Sample of ...</h4>
+            <audio controls src="audio.mp3"></audio>
+            <h4>Video of ...</h4>
+            <video controls src="video.mp4"></video>
+        </section>
+        <section>
+            <h2>Form</h2>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+              </form>
         </section>
     </main>
   </body>
