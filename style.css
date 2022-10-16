@@ -1,0 +1,31 @@
+/*
+f06543 - orange soda
+e8e9eb - platinum
+e0dfd5 - alabaster
+313638 - onyx
+f09d51 - sandy brown
+*/
+
+body {
+    background-color: #e0dfd5;
+  }
+
+header {
+     background-color: #e8e9eb;
+  }
+
+h1 {
+    color: #f06543;
+  }
+
+h2 {
+    color: #f09d51;
+  }
+
+h3 {
+    color: 313638;
+}
+
+footer {
+    background-color: #e8e9eb;
+ }
