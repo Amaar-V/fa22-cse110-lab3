@@ -8,24 +8,62 @@ f09d51 - sandy brown
 
 body {
     background-color: #e0dfd5;
+    border-style: ridge;
+    border-color: indianred;
+    border-width: 3px;
+    width: 800px;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin: auto;
+}
+
+main {
+    font-size: 16px;
   }
 
 header {
      background-color: #e8e9eb;
+     width: 700px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     border-style:ridge;
+     border-color:indianred;
+     border-radius: 0.5%;
+     border-width: 2px;
   }
 
 h1 {
-    color: #f06543;
+    color: rgb(240, 101, 67);
+    font-size: 40pt;
   }
 
 h2 {
-    color: #f09d51;
+    color: hsl(29, 84%, 63%);
+    font-size: 1cm;
   }
 
 h3 {
-    color: 313638;
-}
+    color: #313638;
+    font-size: 0.3in;
+  }
+
+h4 {
+    color: #313638;
+    font-size: 20px;
+  }
 
 footer {
     background-color: #e8e9eb;
- }
+    font-size: 1.5vw;
+    width: 700px;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 20px 30px 20px;
+    border: 2px ridge indianred;
+    border-radius: 0.5%;
+  }
