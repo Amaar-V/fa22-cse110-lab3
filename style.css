@@ -6,6 +6,10 @@ e0dfd5 - alabaster
 f09d51 - sandy brown
 */
 
+* {
+  text-indent: 1px;
+}
+
 body {
     background-color: #e0dfd5;
     border-style: ridge;
@@ -15,9 +19,12 @@ body {
     padding-left: 1cm;
     padding-right: 1cm;
     margin: auto;
-    color:#313638;
     display: block;
-    font-family: sans-serif;
+
+}
+
+p {
+  color:#313638;
 }
 
 @font-face {
@@ -25,6 +32,9 @@ body {
   src: url(Source_Sans_Pro)
 }
 
+#AttendenceList {
+  font-family: 'Courier New', Courier, monospace;
+}
 
 @media screen and (max-width:800px) {
   body {
@@ -34,6 +44,7 @@ body {
 
 main {
     font-size: 16px;
+    font-family: sans-serif;
   }
 
 header {
@@ -128,13 +139,15 @@ h2 {
     font-size: 1cm;
   }
 
+h3, h4 {
+  color: #313638;
+}
+
 h3 {
-    color: #313638;
     font-size: 0.3in;
   }
 
 h4 {
-    color: #313638;
     font-size: 20px;
     text-decoration: underline;
   }
