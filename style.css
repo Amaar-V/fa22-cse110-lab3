@@ -65,7 +65,7 @@ header {
      text-align: center;
 }
 
-.menu {
+nav[class="menu"] {
     max-width: 400px;
     min-width: 300px;
     padding-left: 200px;
@@ -98,6 +98,22 @@ header {
   font-size: 30px;
   text-align: center;
   color:#f06543;
+}
+
+div p {
+  color:rgb(10, 10, 83);
+}
+
+div ~ h4 {
+  font-size: 18px;
+}
+
+h4 + p {
+  background-color: rgb(218, 218, 203);
+}
+
+.divide {
+  background-color: rgb(218, 218, 203);
 }
 
 a:link {
@@ -164,6 +180,10 @@ footer {
     display: inline-block;
     text-align: center;
   }
+
+p.p-color {
+  color: salmon;
+}
 
 .bottom {
     position: fixed;
