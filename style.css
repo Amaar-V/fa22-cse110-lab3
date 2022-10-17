@@ -17,6 +17,19 @@ body {
     margin: auto;
     color:#313638;
     display: block;
+    font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+  src: url(Source_Sans_Pro)
+}
+
+
+@media screen and (max-width:800px) {
+  body {
+    background-color:rgb(162, 214, 162);
+  }
 }
 
 main {
@@ -39,17 +52,42 @@ header {
      border-radius: 0.5%;
      border-width: 2px;
      text-align: center;
-  }
+}
 
 .menu {
     max-width: 400px;
     min-width: 300px;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-right: auto;
     text-decoration: dotted;
     text-align: center;
-    display:inline-block;
-  }
+    display:flex;
+    flex-direction: column;
+    text-decoration: underline;
+    color:hsl(29, 84%, 63%);
+}
+
+.menu > div {
+  background-color: #e8e9eb;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}  
+
+.attend {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.attend-item {
+  background-color: #e8e9eb;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color:#f06543;
+}
 
 a:link {
   color:#f06543;
@@ -73,7 +111,7 @@ h1 {
     top: 0px;
     background-color: #e8e9eb;
     border-style:ridge;
-    border-color: #313638;
+    border-color: indianred;
     border-radius: 0.5%;
     border-width: 2px;
     color: rgb(240, 101, 67);
